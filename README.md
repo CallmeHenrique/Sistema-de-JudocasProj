@@ -685,3 +685,5 @@
     </td>
   </tr>
 </table>
+<H2>Diagrama de Domínio</H2>
+<img src='./documentos/DiagramasJude/Diagrama de Dominio.png'>
