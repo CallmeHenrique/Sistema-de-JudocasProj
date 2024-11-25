@@ -10,7 +10,7 @@ name: maven build
 
 on:
   push:
-    branches: [ "Henrique" ]
+    branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
 
