@@ -1,4 +1,9 @@
 <H1>Documentação do Projeto Sistema de Judocas</H1>
+<H2>Membros do Projeto</H2>
+Gabriel Lopez Vendramini - RA: 22.121.015-6<br>
+Henrique Costa - RA: 22.121.028-9<br>
+Juan Lira Estevão - RA: 22.121.033-9<br>
+Pedro Henrique B. L. Barbieri - RA: 22.121.037-0<br>
 <H2>Modelo de Casos de Uso & Especificação dos Casos de Uso</H2>
 <H3>Modelo de Casos de Uso</H3>
 <img src='./documentos/Diagrama de Casos de Uso.PNG'>
@@ -687,3 +692,70 @@
 </table>
 <H2>Diagrama de Domínio</H2>
 <img src='./documentos/DiagramasJude/Diagrama de Dominio.png'>
+<H2>Especificação de Testes</H2>
+<H3>Teste de Casos de Uso: E2 - Buscar Aluno</H3>
+<strong>Tabela de Cenários</strong>
+<table>
+  <tr>
+    <th>Cenário 1</th>
+    <td>Fluxo Principal</td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Cenário 2</th>
+    <td>Fluxo Principal</td>
+    <td>Fluxo Alternativo 1</td>
+  </tr>
+</table>
+<br>
+<strong>Tabela de Decisão</strong>
+<table>
+  <tr>
+    <th>ID Cenário</th>
+    <th>Cenário 1</th>
+    <th>Cenário 2</th>
+  </tr>
+  <tr>
+    <th>Sistema Encontrou o Aluno?</th>
+    <td>Sim</td>
+    <td>Não</td>
+  </tr>
+</table>
+<strong>Casos de Teste</strong>
+<table>
+  <tr>
+    <th>Caso de Teste</th>
+    <th>Condição de Entrada</th>
+    <th>Cenário</th>
+    <th>Resultado Esperado</th>
+    <th>Resultado Obtido</th>
+  </tr>
+  <tr>
+    <td>Caso 1</td>
+    <td>Nome do Aluno: Teste Aluno</td>
+    <td>Aluno com Nome "Teste Aluno" com ID "123123" criado</td>
+    <td>Encontrado</td>
+    <td>Encontrado</td>
+  </tr>
+  <tr>
+    <td>Caso 2</td>
+    <td>ID: 123123</td>
+    <td>Aluno com Nome "Teste Aluno" com ID "123123" criado</td>
+    <td>Encontrado</td>
+    <td>Encontrado</td>
+  </tr>
+  <tr>
+    <td>Caso 3</td>
+    <td>Nome do Aluno: Nome Errado</td>
+    <td>Aluno com Nome "Teste Aluno" com ID "123123" criado</td>
+    <td>Não Encontrado</td>
+    <td>Não Encontrado</td>
+  </tr>
+  <tr>
+    <td>Caso 4</td>
+    <td>ID: 122222</td>
+    <td>Aluno com Nome "Teste Aluno" com ID "123123" criado</td>
+    <td>Não Encontrado</td>
+    <td>Não Encontrado</td>
+  </tr>
+</table>
