@@ -1,4 +1,9 @@
 <H1>Documentação do Projeto Sistema de Judocas</H1>
+<H2>Membros do Projeto</H2>
+Gabriel Lopez Vendramini - RA: 22.121.015-6<br>
+Henrique Costa - RA: 22.121.028-9<br>
+Juan Lira Estevão - RA: 22.121.033-9<br>
+Pedro Henrique B. L. Barbieri - RA: 22.121.037-0<br>
 <H2>Modelo de Casos de Uso & Especificação dos Casos de Uso</H2>
 <H3>Modelo de Casos de Uso</H3>
 <img src='./documentos/Diagrama de Casos de Uso.PNG'>
