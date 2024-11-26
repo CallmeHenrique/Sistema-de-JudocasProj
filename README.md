@@ -693,7 +693,7 @@ Pedro Henrique B. L. Barbieri - RA: 22.121.037-0<br>
 <H2>Diagrama de Domínio</H2>
 <img src='./documentos/DiagramasJude/Diagrama de Dominio.png'>
 <H2>Especificação de Testes</H2>
-<H3>Teste de Casos de Uso: E1 - Adicionar Aluno</H3>
+<H3>Teste de Casos de Uso: E2 - Buscar Aluno</H3>
 <strong>Tabela de Cenários</strong>
 <table>
   <tr>
@@ -706,11 +706,6 @@ Pedro Henrique B. L. Barbieri - RA: 22.121.037-0<br>
     <td>Fluxo Principal</td>
     <td>Fluxo Alternativo 1</td>
   </tr>
-  <tr>
-    <th>Cenário 3</th>
-    <td>Fluxo Principal</td>
-    <td>Fluxo Alternativo 2</td>
-  </tr>
 </table>
 <br>
 <strong>Tabela de Decisão</strong>
@@ -719,18 +714,10 @@ Pedro Henrique B. L. Barbieri - RA: 22.121.037-0<br>
     <th>ID Cenário</th>
     <th>Cenário 1</th>
     <th>Cenário 2</th>
-    <th>Cenário 3</th>
   </tr>
   <tr>
-    <th>Dados Inválidos Fornecidos?</th>
-    <td>Não</td>
+    <th>Sistema Encontrou o Aluno?</th>
     <td>Sim</td>
-    <td></td>
-  </tr>
-  <tr>
-    <th>Dados Obrigatórios Fornecidos?</th>
-    <td>Sim</td>
-    <td></td>
     <td>Não</td>
   </tr>
 </table>
