@@ -721,3 +721,41 @@ Pedro Henrique B. L. Barbieri - RA: 22.121.037-0<br>
     <td>Não</td>
   </tr>
 </table>
+<strong>Casos de Teste</strong>
+<table>
+  <tr>
+    <th>Caso de Teste</th>
+    <th>Condição de Entrada</th>
+    <th>Cenário</th>
+    <th>Resultado Esperado</th>
+    <th>Resultado Obtido</th>
+  </tr>
+  <tr>
+    <td>Caso 1</td>
+    <td>Nome do Aluno: Teste Aluno</td>
+    <td>Aluno com Nome "Teste Aluno" com ID "123123" criado</td>
+    <td>Encontrado</td>
+    <td>Encontrado</td>
+  </tr>
+  <tr>
+    <td>Caso 2</td>
+    <td>ID: 123123</td>
+    <td>Aluno com Nome "Teste Aluno" com ID "123123" criado</td>
+    <td>Encontrado</td>
+    <td>Encontrado</td>
+  </tr>
+  <tr>
+    <td>Caso 3</td>
+    <td>Nome do Aluno: Nome Errado</td>
+    <td>Aluno com Nome "Teste Aluno" com ID "123123" criado</td>
+    <td>Não Encontrado</td>
+    <td>Não Encontrado</td>
+  </tr>
+  <tr>
+    <td>Caso 4</td>
+    <td>ID: 122222</td>
+    <td>Aluno com Nome "Teste Aluno" com ID "123123" criado</td>
+    <td>Não Encontrado</td>
+    <td>Não Encontrado</td>
+  </tr>
+</table>
