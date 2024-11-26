@@ -687,3 +687,45 @@
 </table>
 <H2>Diagrama de Domínio</H2>
 <img src='./documentos/DiagramasJude/Diagrama de Dominio.png'>
+<H2>Especificação de Testes</H2>
+<H3>Teste de Casos de Uso: E1 - Adicionar Aluno</H3>
+<strong>Tabela de Cenários</strong>
+<table>
+  <tr>
+    <th>Cenário 1</th>
+    <td>Fluxo Principal</td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Cenário 2</th>
+    <td>Fluxo Principal</td>
+    <td>Fluxo Alternativo 1</td>
+  </tr>
+  <tr>
+    <th>Cenário 3</th>
+    <td>Fluxo Principal</td>
+    <td>Fluxo Alternativo 2</td>
+  </tr>
+</table>
+<br>
+<strong>Tabela de Decisão</strong>
+<table>
+  <tr>
+    <th>ID Cenário</th>
+    <th>Cenário 1</th>
+    <th>Cenário 2</th>
+    <th>Cenário 3</th>
+  </tr>
+  <tr>
+    <th>Dados Inválidos Fornecidos?</th>
+    <td>Não</td>
+    <td>Sim</td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Dados Obrigatórios Fornecidos?</th>
+    <td>Sim</td>
+    <td></td>
+    <td>Não</td>
+  </tr>
+</table>
