@@ -759,3 +759,9 @@ Pedro Henrique B. L. Barbieri - RA: 22.121.037-0<br>
     <td>Não Encontrado</td>
   </tr>
 </table>
+<br>
+<strong>Evidência dos Testes com JUnit</strong>
+<img src="./evidencia_testes/Teste Casos De Uso Busca Aluno - Codigo.png">
+<br>
+<strong>Resultado dos Testes com JUnit</strong>
+<img src="./evidencia_testes/Teste Casos De Uso Busca Aluno - Resultado.png">
