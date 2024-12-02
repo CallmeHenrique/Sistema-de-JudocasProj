@@ -730,7 +730,7 @@ Pedro Henrique B. L. Barbieri - RA: 22.121.037-0<br>
   <tr>
     <th>Dados obrigatórios preenchidos?</th>
     <td>Sim</td>
-    <td>Sim</td>
+    <td></td>
     <td>Não</td>
   </tr>
 </table>
@@ -745,26 +745,36 @@ Pedro Henrique B. L. Barbieri - RA: 22.121.037-0<br>
   </tr>
   <tr>
     <td>Caso 1</td>
-    <td>Nome do Aluno: Teste Aluno<br>CPF: 123.123.123-12</td>
+    <td>Nome do Aluno: Teste Aluno<br>CPF: 123.123.123-12<br>CBJ: 11111111<br>email: teste@teste.com.br<br>RG: 12.123.123-1<br>Data de Nascimento: 09/12/2002<br>Órgão: SSP<br>
+    Fone 1: (11) 91231-1231<br>Fone 2: (15) 91231-1231
+    </td>
     <td>Aluno ainda não cadastrado</td>
     <td>Aluno Cadastrado com Sucesso!</td>
     <td>Aluno Cadastrado com Sucesso!</td>
   </tr>
   <tr>
     <td>Caso 2</td>
-    <td>Nome do Aluno: Teste Aluno<br>CPF: ABC.123.123-12</td>
+    <td>Nome do Aluno: Teste Aluno 2<br>CPF: ABC.123.123-12</td>
     <td>Aluno ainda não cadastrado</td>
     <td>Aluno com dados inválidos!</td>
     <td>Aluno Cadastrado com Sucesso!</td>
   </tr>
   <tr>
     <td>Caso 3</td>
-    <td>Nome do Aluno e CPF em branco</td>
+    <td>Todos os campos em branco</td>
     <td>Aluno ainda não cadastrado</td>
     <td>Aluno com Dados Obrigatórios não preenchidos!</td>
     <td>Aluno Cadastrado com Sucesso!</td>
   </tr>
 </table>
+<strong>Evidências de Testes</strong><br>
+<strong>Caso 1</strong><br>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E1_Caso_1.png'>
+<strong>Caso 2</strong><br>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E1_Caso_2.png'>
+<strong>Caso 3</strong><br>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E1_Caso_3.png'>
+
 <H3>Teste de Casos de Uso: E2 - Buscar Aluno</H3>
 <strong>Tabela de Cenários</strong>
 <table>
@@ -804,30 +814,179 @@ Pedro Henrique B. L. Barbieri - RA: 22.121.037-0<br>
   </tr>
   <tr>
     <td>Caso 1</td>
-    <td>Nome do Aluno: Teste Aluno</td>
-    <td>Aluno com Nome "Teste Aluno" com ID "123123" criado</td>
+    <td>ID: 313</td>
+    <td>Aluno com ID "313" criado</td>
     <td>Encontrado</td>
     <td>Encontrado</td>
   </tr>
   <tr>
     <td>Caso 2</td>
-    <td>ID: 123123</td>
-    <td>Aluno com Nome "Teste Aluno" com ID "123123" criado</td>
-    <td>Encontrado</td>
-    <td>Encontrado</td>
+    <td>ID: 1234123123</td>
+    <td>Aluno com ID "313" criado</td>
+    <td>Não Encontrado</td>
+    <td>Não Encontrado</td>
+  </tr>
+</table><br>
+<strong>Evidências de Testes</strong><br>
+<strong>Caso 1</strong><br>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E2_Caso_1.png'>
+<strong>Caso 2</strong><br>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E2_Caso_2.png'>
+
+<H3>Teste de Casos de Uso: E3 - Atualizar Aluno</H3>
+<strong>Tabela de Cenários</strong>
+<table>
+  <tr>
+    <th>Cenário 1</th>
+    <td>Fluxo Principal</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Cenário 2</th>
+    <td>Fluxo Principal</td>
+    <td>Fluxo Alternativo 3.a</td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Cenário 3</th>
+    <td>Fluxo Principal</td>
+    <td>Fluxo Alternativo 6.a</td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Cenário 4</th>
+    <td>Fluxo Principal</td>
+    <td>Fluxo Alternativo 6.b</td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Cenário 5</th>
+    <td>Fluxo Principal</td>
+    <td>Fluxo Alternativo 3.a</td>
+    <td>Fluxo Alternativo 6.a</td>
+  </tr>
+  <tr>
+    <th>Cenário 6</th>
+    <td>Fluxo Principal</td>
+    <td>Fluxo Alternativo 3.a</td>
+    <td>Fluxo Alternativo 6.b</td>
+  </tr>
+</table>
+<br>
+<strong>Tabela de Decisão</strong>
+<table>
+  <tr>
+    <th>ID Cenário</th>
+    <th>Cenário 1</th>
+    <th>Cenário 2</th>
+    <th>Cenário 3</th>
+    <th>Cenário 4</th>
+    <th>Cenário 5</th>
+    <th>Cenário 6</th>
+  </tr>
+  <tr>
+    <th>Secratário sabe o número de registro do Aluno?</th>
+    <td>Sim</td>
+    <td>Não</td>
+    <td>Sim</td>
+    <td>Sim</td>
+    <td>Não</td>
+    <td>Não</td>
+  </tr>
+  <tr>
+    <th>Dados válidos?</th>
+    <td>Sim</td>
+    <td>Sim</td>
+    <td>Sim</td>
+    <td></td>
+    <td>Não</td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Dados obrigatórios preenchidos?</th>
+    <td>Sim</td>
+    <td>Sim</td>
+    <td></td>
+    <td>Sim</td>
+    <td></td>
+    <td>Não</td>
+  </tr>
+</table>
+<strong>Casos de Teste</strong>
+<table>
+  <tr>
+    <th>Caso de Teste</th>
+    <th>Condição de Entrada</th>
+    <th>Cenário</th>
+    <th>Resultado Esperado</th>
+    <th>Resultado Obtido</th>
+  </tr>
+  <tr>
+    <td>Caso 1</td>
+    <td>ID do Aluno é 313, remover o E-mail</td>
+    <td>Aluno com ID 313 cadastrado</td>
+    <td>Aluno Atualizado com Sucesso!</td>
+    <td>Aluno Atualizado com Sucesso!</td>
+  </tr>
+  <tr>
+    <td>Caso 2</td>
+    <td>ID do Aluno é desconhecido, remover o E-mail e Fone 2</td>
+    <td>Aluno com ID desconhecido cadastrado</td>
+    <td>Aluno Atualizado com Sucesso!</td>
+    <td>Aluno Atualizado com Sucesso!</td>
   </tr>
   <tr>
     <td>Caso 3</td>
-    <td>Nome do Aluno: Nome Errado</td>
-    <td>Aluno com Nome "Teste Aluno" com ID "123123" criado</td>
-    <td>Não Encontrado</td>
-    <td>Não Encontrado</td>
+    <td>ID do Aluno é 313, alterar CPF para AAAAA.456.789-10</td>
+    <td>Aluno com ID 313 cadastrado</td>
+    <td>Aluno com Dados Inválidos!</td>
+    <td>Aluno Atualizado com Sucesso!</td>
   </tr>
   <tr>
     <td>Caso 4</td>
-    <td>ID: 122222</td>
-    <td>Aluno com Nome "Teste Aluno" com ID "123123" criado</td>
-    <td>Não Encontrado</td>
-    <td>Não Encontrado</td>
+    <td>ID do Aluno é 313, remover todas as informações</td>
+    <td>Aluno com ID 313 cadastrado</td>
+    <td>Aluno com Dados Obrigatórios não preenchidos!</td>
+    <td>Aluno Atualizado com Sucesso!</td>
+  </tr>
+  <tr>
+    <td>Caso 5</td>
+    <td>ID do Aluno é desconhecido, alterar CPF para AAAAA.456.789-10</td>
+    <td>Aluno com ID desconhecido cadastrado</td>
+    <td>Aluno com Dados Inválidos!</td>
+    <td>Aluno Atualizado com Sucesso!</td>
+  </tr>
+  <tr>
+    <td>Caso 6</td>
+    <td>ID do Aluno é desconhecido, remover todas as informações</td>
+    <td>Aluno com ID desconhecido cadastrado</td>
+    <td>Aluno com Dados Obrigatórios não preenchidos!</td>
+    <td>Aluno Atualizado com Sucesso!</td>
   </tr>
 </table>
+<strong>Evidências de Testes</strong><br>
+<strong>Caso 1</strong><br>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_1a.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_1b.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_1c.png'>
+<strong>Caso 2</strong><br>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_2a.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_2b.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_2c.png'>
+<strong>Caso 3</strong><br>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_3a.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_3b.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_3c.png'>
+<strong>Caso 4</strong><br>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_4a.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_4b.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_4c.png'>
+<strong>Caso 5</strong><br>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_a.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_b.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_c.png'>
+<strong>Caso 6</strong><br>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_a.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_b.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_c.png'>
