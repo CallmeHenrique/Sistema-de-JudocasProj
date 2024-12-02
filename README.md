@@ -1129,6 +1129,144 @@ Pedro Henrique B. L. Barbieri - RA: 22.121.037-0<br>
 <img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_1b.png'>
 <img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_1c.png'>
 
+<H3>Teste de Casos de Uso: E5 - Atualizar Professor</H3>
+<strong>Tabela de Cenários</strong>
+<table>
+  <tr>
+    <th>Cenário 1</th>
+    <td>Fluxo Principal</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Cenário 2</th>
+    <td>Fluxo Principal</td>
+    <td>Fluxo Alternativo 3.a</td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Cenário 3</th>
+    <td>Fluxo Principal</td>
+    <td>Fluxo Alternativo 6.a</td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Cenário 4</th>
+    <td>Fluxo Principal</td>
+    <td>Fluxo Alternativo 6.b</td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Cenário 5</th>
+    <td>Fluxo Principal</td>
+    <td>Fluxo Alternativo 3.a</td>
+    <td>Fluxo Alternativo 6.a</td>
+  </tr>
+  <tr>
+    <th>Cenário 6</th>
+    <td>Fluxo Principal</td>
+    <td>Fluxo Alternativo 3.a</td>
+    <td>Fluxo Alternativo 6.b</td>
+  </tr>
+</table>
+<br>
+<strong>Tabela de Decisão</strong>
+<table>
+  <tr>
+    <th>ID Cenário</th>
+    <th>Cenário 1</th>
+    <th>Cenário 2</th>
+    <th>Cenário 3</th>
+    <th>Cenário 4</th>
+    <th>Cenário 5</th>
+    <th>Cenário 6</th>
+  </tr>
+  <tr>
+    <th>Secratário sabe o número de registro do Aluno?</th>
+    <td>Sim</td>
+    <td>Não</td>
+    <td>Sim</td>
+    <td>Sim</td>
+    <td>Não</td>
+    <td>Não</td>
+  </tr>
+  <tr>
+    <th>Dados válidos?</th>
+    <td>Sim</td>
+    <td>Sim</td>
+    <td>Sim</td>
+    <td></td>
+    <td>Não</td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Dados obrigatórios preenchidos?</th>
+    <td>Sim</td>
+    <td>Sim</td>
+    <td></td>
+    <td>Sim</td>
+    <td></td>
+    <td>Não</td>
+  </tr>
+</table>
+<strong>Casos de Teste</strong>
+<table>
+  <tr>
+    <th>Caso de Teste</th>
+    <th>Condição de Entrada</th>
+    <th>Cenário</th>
+    <th>Resultado Esperado</th>
+    <th>Resultado Obtido</th>
+  </tr>
+  <tr>
+    <td>Caso 1</td>
+    <td>Nome do Professor é Professor A, atualizar E-mail, Registro CBJ, CPF e Data de Nascimento</td>
+    <td>Professor com Nome Professor A estar cadastrado</td>
+    <td>Professor Atualizado com Sucesso!</td>
+    <td>Professor Atualizado com Sucesso!</td>
+  </tr>
+  <tr>
+    <td>Caso 2</td>
+    <td>Nome do Professor é desconhecido, atualizar E-mail, Registro CBJ, RG, CPF e Data de Nascimento</td>
+    <td>Professor com informações desconhecidas estar cadastrado</td>
+    <td>Professor Atualizado com Sucesso!</td>
+    <td>Professor Atualizado com Sucesso!</td>
+  </tr>
+  <tr>
+    <td>Caso 3</td>
+    <td>Nome do Professor é Professor A, alterar CPF para AAA.456.789-10</td>
+    <td>Professor com Nome Professor A estar cadastrado</td>
+    <td>Professor com Dados Inválidos!</td>
+    <td>Professor Atualizado com Sucesso!</td>
+  </tr>
+  <tr>
+    <td>Caso 4</td>
+    <td>Nome do Professor é Professor A, remover todas as informações</td>
+    <td>Professor com Nome Professor A estar cadastrado</td>
+    <td>Professor com Dados Obrigatórios não preenchidos!</td>
+    <td>Professor Atualizado com Sucesso!</td>
+  </tr>
+  <tr>
+    <td>Caso 5</td>
+    <td>Nome do Professor é Professor A, alterar CPF para AAA.456.789-10</td>
+    <td>Professor com informações desconhecidas estar cadastrado</td>
+    <td>Professor com Dados Inválidos!</td>
+    <td>Professor Atualizado com Sucesso!</td>
+  </tr>
+  <tr>
+    <td>Caso 6</td>
+    <td>Nome do Professor é Professor A, remover todas as informações</td>
+    <td>Professor com informações desconhecidas estar cadastrado</td>
+    <td>Professor com Dados Obrigatórios não preenchidos!</td>
+    <td>Professor Atualizado com Sucesso!</td>
+  </tr>
+</table>
+<strong>Evidências de Testes</strong><br>
+<strong>Caso 1</strong><br>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_1a.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_1b.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_1c.png'>
+
 <H2>Especificação dos Testes Unitários</H2>
 <H3>1. Classe Aluno</H3>
 <strong>Testes de Fluxo de Dados</strong><br>
