@@ -1128,20 +1128,14 @@ Pedro Henrique B. L. Barbieri - RA: 22.121.037-0<br>
 <img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E4_Caso_1a_3a_4a.png'>
 <strong>Caso 2</strong><br>
 <img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E4_Caso_2a.png'>
-<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E4_Caso_2b.png'>
-<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E4_Caso_2c.png'>
 <strong>Caso 3</strong><br>
 <img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E4_Caso_1a_3a_4a.png'>
 <strong>Caso 4</strong><br>
 <img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E4_Caso_1a_3a_4a.png'>
 <strong>Caso 5</strong><br>
 <img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E4_Caso_5a.png'>
-<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E4_Caso_5b.png'>
-<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E4_Caso_5c.png'>
 <strong>Caso 6</strong><br>
 <img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E4_Caso_6a.png'>
-<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E4_Caso_6b.png'>
-<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E4_Caso_6c.png'>
 
 <H3>Teste de Casos de Uso: E5 - Buscar Professor</H3>
 <strong>Tabela de Cenários</strong>
@@ -1150,13 +1144,11 @@ Pedro Henrique B. L. Barbieri - RA: 22.121.037-0<br>
     <th>Cenário 1</th>
     <td>Fluxo Principal</td>
     <td></td>
-    <td></td>
   </tr>
   <tr>
     <th>Cenário 2</th>
     <td>Fluxo Principal</td>
     <td>Fluxo Alternativo 4.a</td>
-    <td></td>
   </tr>
 </table>
 <br>
