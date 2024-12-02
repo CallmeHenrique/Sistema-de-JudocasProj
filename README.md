@@ -693,6 +693,78 @@ Pedro Henrique B. L. Barbieri - RA: 22.121.037-0<br>
 <H2>Diagrama de Domínio</H2>
 <img src='./documentos/DiagramasJude/Diagrama de Dominio.png'>
 <H2>Especificação de Testes</H2>
+<H3>Teste de Casos de Uso: E1 - Adicionar Aluno</H3>
+<strong>Tabela de Cenários</strong>
+<table>
+  <tr>
+    <th>Cenário 1</th>
+    <td>Fluxo Principal</td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Cenário 2</th>
+    <td>Fluxo Principal</td>
+    <td>Fluxo Alternativo 1</td>
+  </tr>
+  <tr>
+    <th>Cenário 3</th>
+    <td>Fluxo Principal</td>
+    <td>Fluxo Alternativo 2</td>
+  </tr>
+</table>
+<br>
+<strong>Tabela de Decisão</strong>
+<table>
+  <tr>
+    <th>ID Cenário</th>
+    <th>Cenário 1</th>
+    <th>Cenário 2</th>
+    <th>Cenário 3</th>
+  </tr>
+  <tr>
+    <th>Dados são válidos?</th>
+    <td>Sim</td>
+    <td>Não</td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Dados obrigatórios preenchidos?</th>
+    <td>Sim</td>
+    <td>Sim</td>
+    <td>Não</td>
+  </tr>
+</table>
+<strong>Casos de Teste</strong>
+<table>
+  <tr>
+    <th>Caso de Teste</th>
+    <th>Condição de Entrada</th>
+    <th>Cenário</th>
+    <th>Resultado Esperado</th>
+    <th>Resultado Obtido</th>
+  </tr>
+  <tr>
+    <td>Caso 1</td>
+    <td>Nome do Aluno: Teste Aluno<br>CPF: 123.123.123-12</td>
+    <td>Aluno ainda não cadastrado</td>
+    <td>Aluno Cadastrado com Sucesso!</td>
+    <td>Aluno Cadastrado com Sucesso!</td>
+  </tr>
+  <tr>
+    <td>Caso 2</td>
+    <td>Nome do Aluno: Teste Aluno<br>CPF: ABC.123.123-12</td>
+    <td>Aluno ainda não cadastrado</td>
+    <td>Aluno com dados inválidos!</td>
+    <td>Aluno Cadastrado com Sucesso!</td>
+  </tr>
+  <tr>
+    <td>Caso 3</td>
+    <td>Nome do Aluno e CPF em branco</td>
+    <td>Aluno ainda não cadastrado</td>
+    <td>Aluno com Dados Obrigatórios não preenchidos!</td>
+    <td>Aluno Cadastrado com Sucesso!</td>
+  </tr>
+</table>
 <H3>Teste de Casos de Uso: E2 - Buscar Aluno</H3>
 <strong>Tabela de Cenários</strong>
 <table>
@@ -759,9 +831,3 @@ Pedro Henrique B. L. Barbieri - RA: 22.121.037-0<br>
     <td>Não Encontrado</td>
   </tr>
 </table>
-<br>
-<strong>Evidência dos Testes com JUnit</strong>
-<img src="./evidencia_testes/Teste Casos De Uso Busca Aluno - Codigo.png">
-<br>
-<strong>Resultado dos Testes com JUnit</strong>
-<img src="./evidencia_testes/Teste Casos De Uso Busca Aluno - Resultado.png">
