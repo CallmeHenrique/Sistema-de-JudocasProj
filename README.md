@@ -704,12 +704,12 @@ Pedro Henrique B. L. Barbieri - RA: 22.121.037-0<br>
   <tr>
     <th>Cenário 2</th>
     <td>Fluxo Principal</td>
-    <td>Fluxo Alternativo 1</td>
+    <td>Fluxo Alternativo 6.a</td>
   </tr>
   <tr>
     <th>Cenário 3</th>
     <td>Fluxo Principal</td>
-    <td>Fluxo Alternativo 2</td>
+    <td>Fluxo Alternativo 6.b</td>
   </tr>
 </table>
 <br>
@@ -786,7 +786,7 @@ Pedro Henrique B. L. Barbieri - RA: 22.121.037-0<br>
   <tr>
     <th>Cenário 2</th>
     <td>Fluxo Principal</td>
-    <td>Fluxo Alternativo 1</td>
+    <td>Fluxo Alternativo 4.a</td>
   </tr>
 </table>
 <br>
