@@ -1094,6 +1094,116 @@ Pedro Henrique B. L. Barbieri - RA: 22.121.037-0<br>
 </table>
 <br>
 <strong>Teste de Grafo de Fluxo de Controle</strong><br>
-Método: equals(Object obj)
-
+5. Método: equals(Object obj)
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Testes%20de%20Grafo%20de%20Fluxo%20de%20Controle/Classe%20Aluno%20Metodo%20Equals.png'
 <strong>Cobertura de Código</strong>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Cobertura%20de%20Codigo/Classe%20Aluno.png'>
+<H3>Classe Endereço</H3>
+<strong>Testes de Fluxo de Dados</strong><br>
+<table>
+  <tr>
+    <th colspan="3">1. Variável Rua</th>
+  </tr>
+  <tr>
+    <th>par d-u</th>
+    <th>d</th>
+    <th>u</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>27</td>
+    <td>24</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>27</td>
+    <td>15</td>
+  </tr>
+</table>
+<br>
+<table>
+  <tr>
+    <th colspan="3">2. Variável Numero</th>
+  </tr>
+  <tr>
+    <th>par d-u</th>
+    <th>d</th>
+    <th>u</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>33</td>
+    <td>30</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>33</td>
+    <td>16</td>
+  </tr>
+</table>
+<br>
+<table>
+  <tr>
+    <th colspan="3">3. Variável Bairro</th>
+  </tr>
+  <tr>
+    <th>par d-u</th>
+    <th>d</th>
+    <th>u</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>39</td>
+    <td>36</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>39</td>
+    <td>17</td>
+  </tr>
+</table>
+<br>
+<table>
+  <tr>
+    <th colspan="3">4. Variável Cidade</th>
+  </tr>
+  <tr>
+    <th>par d-u</th>
+    <th>d</th>
+    <th>u</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>45</td>
+    <td>42</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>45</td>
+    <td>18</td>
+  </tr>
+</table>
+<br>
+<table>
+  <tr>
+    <th colspan="3">5. Variável Estado</th>
+  </tr>
+  <tr>
+    <th>par d-u</th>
+    <th>d</th>
+    <th>u</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>51</td>
+    <td>48</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>51</td>
+    <td>19</td>
+  </tr>
+</table>
+<br>
+<strong>Cobertura de Código</strong>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Cobertura%20de%20Codigo/Classe%20Endereco.png'>
