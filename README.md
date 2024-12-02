@@ -983,13 +983,13 @@ Pedro Henrique B. L. Barbieri - RA: 22.121.037-0<br>
 <img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_4b.png'>
 <img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_4c.png'>
 <strong>Caso 5</strong><br>
-<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_a.png'>
-<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_b.png'>
-<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_c.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_5a.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_5b.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_5c.png'>
 <strong>Caso 6</strong><br>
-<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_a.png'>
-<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_b.png'>
-<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_c.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_6a.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_6b.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_6c.png'>
 
 <H3>Teste de Casos de Uso: E4 - Adicionar Professor</H3>
 <strong>Tabela de Cenários</strong>
@@ -1110,24 +1110,38 @@ Pedro Henrique B. L. Barbieri - RA: 22.121.037-0<br>
   </tr>
   <tr>
     <td>Caso 5</td>
-    <td>ID do Aluno é desconhecido, Informações inválidas</td>
-    <td>Não possui registro, Professor ainda não criado</td>
+    <td>Não possui registro, Informações inválidas</td>
+    <td>Professor ainda não cadastrado</td>
     <td>Existem dados inválidos!</td>
     <td>Professor Criado com Sucesso!</td>
   </tr>
   <tr>
     <td>Caso 6</td>
-    <td>ID do Aluno é desconhecido, Informações obrigatórias em branco</td>
-    <td>Não possui registro, Professor ainda não criado</td>
+    <td>Não possui registro, Informações obrigatórias em branco</td>
+    <td>Professor ainda não cadastrado</td>
     <td>Existem dados obrigatórios em branco!</td>
     <td>Professor Criado com Sucesso!</td>
   </tr>
 </table>
 <strong>Evidências de Testes</strong><br>
 <strong>Caso 1</strong><br>
-<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_1a.png'>
-<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_1b.png'>
-<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_1c.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E4_Caso_1a_3a_4a.png'>
+<strong>Caso 2</strong><br>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E4_Caso_2a.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E4_Caso_2b.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E4_Caso_2c.png'>
+<strong>Caso 3</strong><br>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E4_Caso_1a_3a_4a.png'>
+<strong>Caso 4</strong><br>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E4_Caso_1a_3a_4a.png'>
+<strong>Caso 5</strong><br>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E4_Caso_5a.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E4_Caso_5b.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E4_Caso_5c.png'>
+<strong>Caso 6</strong><br>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E4_Caso_6a.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E4_Caso_6b.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E4_Caso_6c.png'>
 
 <H3>Teste de Casos de Uso: E5 - Buscar Professor</H3>
 <strong>Tabela de Cenários</strong>
@@ -1192,7 +1206,11 @@ Pedro Henrique B. L. Barbieri - RA: 22.121.037-0<br>
 </table>
 <strong>Evidências de Testes</strong><br>
 <strong>Caso 1</strong><br>
-<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_1a.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E5_Caso_1.png'>
+<strong>Caso 2</strong><br>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E5_Caso_2.png'>
+<strong>Caso 3</strong><br>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E5_Caso_3.png'>
 
 <H3>Teste de Casos de Uso: E6 - Atualizar Professor</H3>
 <strong>Tabela de Cenários</strong>
@@ -1328,9 +1346,29 @@ Pedro Henrique B. L. Barbieri - RA: 22.121.037-0<br>
 </table>
 <strong>Evidências de Testes</strong><br>
 <strong>Caso 1</strong><br>
-<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_1a.png'>
-<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_1b.png'>
-<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_1c.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E6_Caso_1a.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E6_Caso_1b.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E6_Caso_1c.png'>
+<strong>Caso 2</strong><br>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E6_Caso_2a.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E6_Caso_2b.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E6_Caso_2c.png'>
+<strong>Caso 3</strong><br>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E6_Caso_3a.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E6_Caso_3b.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E6_Caso_3c.png'>
+<strong>Caso 4</strong><br>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E6_Caso_4a.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E6_Caso_4b.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E6_Caso_4c.png'>
+<strong>Caso 5</strong><br>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E6_Caso_5a.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E6_Caso_5b.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E6_Caso_5c.png'>
+<strong>Caso 6</strong><br>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E6_Caso_6a.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E6_Caso_6b.png'>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E6_Caso_6c.png'>
 
 <H2>Especificação dos Testes Unitários</H2>
 <H3>1. Classe Aluno</H3>
