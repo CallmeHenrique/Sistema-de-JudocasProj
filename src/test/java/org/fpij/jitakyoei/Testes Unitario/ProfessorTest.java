@@ -25,7 +25,13 @@ public class ProfessorTest {
     }
 
     @Test
-    public void TestarGetESets(){
+    public void TestarFiliado(){
+        prof.setFiliado(fil);
+        assertEquals(fil, prof.getFiliado());
+    }
+
+    @Test
+    public void TestarEntidades(){
         List<Entidade> ents = prof.getEntidades();
         Entidade entity = new Entidade();
 
@@ -35,10 +41,7 @@ public class ProfessorTest {
         }
 
         prof.setEntidades(ents);
-        prof.setFiliado(fil);
-
         assertEquals(ents, prof.getEntidades());
-        assertEquals(fil, prof.getFiliado());
     }
 
     @Test

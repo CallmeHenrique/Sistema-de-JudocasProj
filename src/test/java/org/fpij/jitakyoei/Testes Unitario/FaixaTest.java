@@ -13,21 +13,28 @@ import org.junit.Test;
 public class FaixaTest {
     
     @Test
-    public void TestandoConstrutores(){
+    public void TestarConstrutorVazio(){
         Faixa fx = new Faixa();
         assertNotEquals(null, fx);
+    }
 
+    @Test
+    public void TestarConstrutorComParametros(){
         Faixa fx2 = new Faixa(CorFaixa.AMARELA, new Date());
         assertNotEquals(null, fx2);
     }
 
     @Test
-    public void TestandoGetsESets(){
+    public void TestarCor(){
         Faixa fx = new Faixa();
         fx.setCor(CorFaixa.AZUL);
-        fx.setDataEntrega(new Date());
-
         assertEquals(CorFaixa.AZUL, fx.getCor());
+    }
+
+    @Test
+    public void TestarDataDeEntrega(){
+        Faixa fx = new Faixa();
+        fx.setDataEntrega(new Date());
         assertEquals(new Date(), fx.getDataEntrega());
     }
 

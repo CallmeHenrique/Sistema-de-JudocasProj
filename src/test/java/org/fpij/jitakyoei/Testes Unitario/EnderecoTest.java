@@ -16,20 +16,39 @@ public class EnderecoTest {
     }
 
     @Test
-    public void TestarGetESets(){
-        end.setBairro("Bairro");
-        end.setCep("12345-678");
-        end.setCidade("Cidade");
-        end.setEstado("Estado");
-        end.setNumero("123");
+    public void TestarRua(){
         end.setRua("Rua");
-
-        assertEquals("Bairro", end.getBairro());
-        assertEquals("12345-678", end.getCep());
-        assertEquals("Cidade", end.getCidade());
-        assertEquals("Estado", end.getEstado());
-        assertEquals("123", end.getNumero());
         assertEquals("Rua", end.getRua());
+    }
+
+    @Test
+    public void TestarBairro(){
+        end.setBairro("Bairro");
+        assertEquals("Bairro", end.getBairro());
+    }
+
+    @Test
+    public void TestarCEP(){
+        end.setCep("12345-678");
+        assertEquals("12345-678", end.getCep());
+    }
+
+    @Test
+    public void TestarCidade(){
+        end.setCidade("Cidade");
+        assertEquals("Cidade", end.getCidade());
+    }
+
+    @Test
+    public void TestarEstado(){
+        end.setEstado("Estado");
+        assertEquals("Estado", end.getEstado());
+    }
+
+    @Test
+    public void TestarNumero(){
+        end.setNumero("123");
+        assertEquals("123", end.getNumero());
     }
 
     @Test
