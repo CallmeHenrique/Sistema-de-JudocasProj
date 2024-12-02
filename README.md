@@ -992,7 +992,7 @@ Pedro Henrique B. L. Barbieri - RA: 22.121.037-0<br>
 <img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_c.png'>
 
 <H2>Especificação dos Testes Unitários</H2>
-<H3>Classe Aluno</H3>
+<H3>1. Classe Aluno</H3>
 <strong>Testes de Fluxo de Dados</strong><br>
 <table>
   <tr>
@@ -1095,10 +1095,10 @@ Pedro Henrique B. L. Barbieri - RA: 22.121.037-0<br>
 <br>
 <strong>Teste de Grafo de Fluxo de Controle</strong><br>
 5. Método: equals(Object obj)
-<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Testes%20de%20Grafo%20de%20Fluxo%20de%20Controle/Classe%20Aluno%20Metodo%20Equals.png'
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Testes%20de%20Grafo%20de%20Fluxo%20de%20Controle/Classe%20Aluno%20Metodo%20Equals.png'>
 <strong>Cobertura de Código</strong>
 <img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Cobertura%20de%20Codigo/Classe%20Aluno.png'>
-<H3>Classe Endereço</H3>
+<H3>2. Classe Endereço</H3>
 <strong>Testes de Fluxo de Dados</strong><br>
 <table>
   <tr>
@@ -1207,3 +1207,687 @@ Pedro Henrique B. L. Barbieri - RA: 22.121.037-0<br>
 <br>
 <strong>Cobertura de Código</strong>
 <img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Cobertura%20de%20Codigo/Classe%20Endereco.png'>
+<H3>3. Classe Entidade</H3>
+<strong>Testes de Fluxo de Dados</strong><br>
+<table>
+  <tr>
+    <th colspan="3">1. Variável Nome</th>
+  </tr>
+  <tr>
+    <th>par d-u</th>
+    <th>d</th>
+    <th>u</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>30</td>
+    <td>15</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>30</td>
+    <td>23</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>30</td>
+    <td>27</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>30</td>
+    <td>59</td>
+  </tr>
+    <tr>
+    <td>5</td>
+    <td>63</td>
+    <td>15</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>63</td>
+    <td>23</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>63</td>
+    <td>27</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>63</td>
+    <td>59</td>
+  </tr>
+</table>
+<br>
+<table>
+  <tr>
+    <th colspan="3">2. Variável Telefone1</th>
+  </tr>
+  <tr>
+    <th>par d-u</th>
+    <th>d</th>
+    <th>u</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>36</td>
+    <td>33</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>65</td>
+    <td>33</td>
+  </tr>
+</table>
+<br>
+<table>
+  <tr>
+    <th colspan="3">3. Variável Telefone2</th>
+  </tr>
+  <tr>
+    <th>par d-u</th>
+    <th>d</th>
+    <th>u</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>42</td>
+    <td>39</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>66</td>
+    <td>39</td>
+  </tr>
+</table>
+<br>
+<table>
+  <tr>
+    <th colspan="3">4. Variável CNPJ</th>
+  </tr>
+  <tr>
+    <th>par d-u</th>
+    <th>d</th>
+    <th>u</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>54</td>
+    <td>51</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>64</td>
+    <td>51</td>
+  </tr>
+</table>
+<br>
+<table>
+  <tr>
+    <th colspan="3">5. Variável Estado</th>
+  </tr>
+  <tr>
+    <th>par d-u</th>
+    <th>d</th>
+    <th>u</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>51</td>
+    <td>48</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>51</td>
+    <td>19</td>
+  </tr>
+</table>
+<br>
+<strong>Cobertura de Código</strong>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Cobertura%20de%20Codigo/Classe%20Entidade.png'>
+<H3>4. Classe Faixa</H3>
+<strong>Testes de Fluxo de Dados</strong><br>
+<table>
+  <tr>
+    <th colspan="3">1. Variável Cor</th>
+  </tr>
+  <tr>
+    <th>par d-u</th>
+    <th>d</th>
+    <th>u</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>17</td>
+    <td>22</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>17</td>
+    <td>36</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>26</td>
+    <td>22</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>26</td>
+    <td>36</td>
+  </tr>
+</table>
+<br>
+<table>
+  <tr>
+    <th colspan="3">2. Variável dataEntrega</th>
+  </tr>
+  <tr>
+    <th>par d-u</th>
+    <th>d</th>
+    <th>u</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>18</td>
+    <td>29</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>18</td>
+    <td>36</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>32</td>
+    <td>29</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>32</td>
+    <td>36</td>
+  </tr>
+</table>
+<br>
+<strong>Cobertura de Código</strong>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Cobertura%20de%20Codigo/Classe%20Faixa.png'>
+<H3>5. Classe Filiado</H3>
+<strong>Testes de Fluxo de Dados</strong><br>
+<table>
+  <tr>
+    <th colspan="3">1. Variável registroCbj</th>
+  </tr>
+  <tr>
+    <th>par d-u</th>
+    <th>d</th>
+    <th>u</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>62</td>
+    <td>59</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>62</td>
+    <td>24</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>130</td>
+    <td>59</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>130</td>
+    <td>24</td>
+  </tr>
+</table>
+<br>
+<table>
+  <tr>
+    <th colspan="3">2. Variável Email</th>
+  </tr>
+  <tr>
+    <th>par d-u</th>
+    <th>d</th>
+    <th>u</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>98</td>
+    <td>95</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>98</td>
+    <td>26</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>136</td>
+    <td>95</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>136</td>
+    <td>26</td>
+  </tr>
+</table>
+<br>
+<table>
+  <tr>
+    <th colspan="3">3. Variável dataCadastro</th>
+  </tr>
+  <tr>
+    <th>par d-u</th>
+    <th>d</th>
+    <th>u</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>74</td>
+    <td>71</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>132</td>
+    <td>71</td>
+  </tr>
+</table>
+<br>
+<table>
+  <tr>
+    <th colspan="3">4. Variável Endereco</th>
+  </tr>
+  <tr>
+    <th>par d-u</th>
+    <th>d</th>
+    <th>u</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>80</td>
+    <td>77</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>133</td>
+    <td>77</td>
+  </tr>
+</table>
+<br>
+<strong>Teste de Grafo de Fluxo de Controle</strong><br>
+5. Método: equals(Object obj)
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Testes%20de%20Grafo%20de%20Fluxo%20de%20Controle/Classe%20Aluno%20Metodo%20Equals.png'>
+<strong>Cobertura de Código</strong>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Cobertura%20de%20Codigo/Classe%20Filiado.png'>
+<H3>6. Classe Professor</H3>
+<strong>Testes de Fluxo de Dados</strong><br>
+<table>
+  <tr>
+    <th colspan="3">1. Variável Filiado</th>
+  </tr>
+  <tr>
+    <th>par d-u</th>
+    <th>d</th>
+    <th>u</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>31</td>
+    <td>27</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>31</td>
+    <td>43</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>31</td>
+    <td>23</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>31</td>
+    <td>15</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>7</td>
+    <td>27</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>7</td>
+    <td>43</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>7</td>
+    <td>23</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>7</td>
+    <td>15</td>
+  </tr>
+</table>
+<br>
+<table>
+  <tr>
+    <th colspan="3">2. Variável Entidade</th>
+  </tr>
+  <tr>
+    <th>par d-u</th>
+    <th>d</th>
+    <th>u</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>39</td>
+    <td>35</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>8</td>
+    <td>35</td>
+  </tr>
+</table>
+<br>
+<table>
+  <tr>
+    <th colspan="3">3. Variável Hash</th>
+  </tr>
+  <tr>
+    <th>par d-u</th>
+    <th>d</th>
+    <th>u</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>22</td>
+    <td>23</td>
+  </tr>
+</table>
+<br>
+<table>
+  <tr>
+    <th colspan="3">4. Variável Other</th>
+  </tr>
+  <tr>
+    <th>par d-u</th>
+    <th>d</th>
+    <th>u</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>14</td>
+    <td>15</td>
+  </tr>
+</table>
+<br>
+<strong>Teste de Grafo de Fluxo de Controle</strong><br>
+5. Método: equals(Object obj)
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Testes%20de%20Grafo%20de%20Fluxo%20de%20Controle/Classe%20Aluno%20Metodo%20Equals.png'>
+<strong>Cobertura de Código</strong>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Cobertura%20de%20Codigo/Classe%20Professor.png'>
+<H3>7. Classe ProfessorEntidade</H3>
+<strong>Testes de Fluxo de Dados</strong><br>
+<table>
+  <tr>
+    <th colspan="3">1. Variável Professor</th>
+  </tr>
+  <tr>
+    <th>par d-u</th>
+    <th>d</th>
+    <th>u</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>9</td>
+    <td>17</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>9</td>
+    <td>25</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>9</td>
+    <td>29</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>32</td>
+    <td>17</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>32</td>
+    <td>25</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>32</td>
+    <td>29</td>
+  </tr>
+</table>
+<br>
+<table>
+  <tr>
+    <th colspan="3">2. Variável Entidade</th>
+  </tr>
+  <tr>
+    <th>par d-u</th>
+    <th>d</th>
+    <th>u</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>10</td>
+    <td>18</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>10</td>
+    <td>25</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>10</td>
+    <td>35</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>38</td>
+    <td>18</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>38</td>
+    <td>25</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>38</td>
+    <td>35</td>
+  </tr>
+</table>
+<br>
+<table>
+  <tr>
+    <th colspan="3">3. Variável Obj</th>
+  </tr>
+  <tr>
+    <th>par d-u</th>
+    <th>d</th>
+    <th>u</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>14</td>
+    <td>15</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>14</td>
+    <td>16</td>
+  </tr>
+</table>
+<br>
+<table>
+  <tr>
+    <th colspan="3">4. Variável Other</th>
+  </tr>
+  <tr>
+    <th>par d-u</th>
+    <th>d</th>
+    <th>u</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>16</td>
+    <td>17</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>16</td>
+    <td>18</td>
+  </tr>
+</table>
+<br>
+<strong>Teste de Grafo de Fluxo de Controle</strong><br>
+5. Método: equals(Object obj)
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Testes%20de%20Grafo%20de%20Fluxo%20de%20Controle/Classe%20Aluno%20Metodo%20Equals.png'>
+<strong>Cobertura de Código</strong>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Cobertura%20de%20Codigo/Classe%20ProfessorEntidade.png'>
+<H3>8. Classe Rg</H3>
+<strong>Testes de Fluxo de Dados</strong><br>
+<table>
+  <tr>
+    <th colspan="3">1. Variável Numero</th>
+  </tr>
+  <tr>
+    <th>par d-u</th>
+    <th>d</th>
+    <th>u</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>10</td>
+    <td>18</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>10</td>
+    <td>25</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>10</td>
+    <td>29</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>32</td>
+    <td>18</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>32</td>
+    <td>25</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>32</td>
+    <td>29</td>
+  </tr>
+</table>
+<br>
+<table>
+  <tr>
+    <th colspan="3">2. Variável orgaoExpedidor</th>
+  </tr>
+  <tr>
+    <th>par d-u</th>
+    <th>d</th>
+    <th>u</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>11</td>
+    <td>19</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>11</td>
+    <td>25</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>11</td>
+    <td>35</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>38</td>
+    <td>19</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>38</td>
+    <td>25</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>38</td>
+    <td>35</td>
+  </tr>
+</table>
+<br>
+<table>
+  <tr>
+    <th colspan="3">3. Variável Obj</th>
+  </tr>
+  <tr>
+    <th>par d-u</th>
+    <th>d</th>
+    <th>u</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>15</td>
+    <td>17</td>
+  </tr>
+</table>
+<br>
+<table>
+  <tr>
+    <th colspan="3">4. Variável Other</th>
+  </tr>
+  <tr>
+    <th>par d-u</th>
+    <th>d</th>
+    <th>u</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>17</td>
+    <td>18</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>17</td>
+    <td>19</td>
+  </tr>
+</table>
+<br>
+<strong>Teste de Grafo de Fluxo de Controle</strong><br>
+5. Método: equals(Object obj)
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Testes%20de%20Grafo%20de%20Fluxo%20de%20Controle/Classe%20Aluno%20Metodo%20Equals.png'>
+<strong>Cobertura de Código</strong>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Cobertura%20de%20Codigo/Classe%20RG.png'>
