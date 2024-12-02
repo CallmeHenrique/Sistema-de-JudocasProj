@@ -1362,6 +1362,286 @@ Pedro Henrique B. L. Barbieri - RA: 22.121.037-0<br>
 <img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E6_Caso_6b.png'>
 <img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Juan/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E6_Caso_6c.png'>
 
+<H3>Teste de Casos de Uso: E7 - Adicionar Entidade</H3>
+<strong>Tabela de Cenários</strong>
+<table>
+  <tr>
+    <th>Cenário 1</th>
+    <td>Fluxo Principal</td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Cenário 2</th>
+    <td>Fluxo Principal</td>
+    <td>Fluxo Alternativo 5.a</td>
+  </tr>
+  <tr>
+    <th>Cenário 3</th>
+    <td>Fluxo Principal</td>
+    <td>Fluxo Alternativo 5.b</td>
+  </tr>
+</table>
+<br>
+<strong>Tabela de Decisão</strong>
+<table>
+  <tr>
+    <th>ID Cenário</th>
+    <th>Cenário 1</th>
+    <th>Cenário 2</th>
+    <th>Cenário 3</th>
+  </tr>
+  <tr>
+    <th>Dados são válidos?</th>
+    <td>Sim</td>
+    <td>Não</td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Dados obrigatórios preenchidos?</th>
+    <td>Sim</td>
+    <td></td>
+    <td>Não</td>
+  </tr>
+</table>
+<strong>Casos de Teste</strong>
+<table>
+  <tr>
+    <th>Caso de Teste</th>
+    <th>Condição de Entrada</th>
+    <th>Cenário</th>
+    <th>Resultado Esperado</th>
+    <th>Resultado Obtido</th>
+  </tr>
+  <tr>
+    <td>Caso 1</td>
+    <td>Entidade: Nome: Entidade A, CNPJ: 12.123.123/0001-11</td>
+    <td>Entidade ainda não cadastrada</td>
+    <td>Entidade Cadastrada com Sucesso!</td>
+    <td>Entidade Cadastrada com Sucesso!</td>
+  </tr>
+  <tr>
+    <td>Caso 2</td>
+    <td>Entidade: Nome: Entidade A, CNPJ: 12.123.AAA/0001-11</td>
+    <td>Entidade ainda não cadastrada</td>
+    <td>Entidade com dados inválidos!</td>
+    <td>Entidade Cadastrada com Sucesso!</td>
+  </tr>
+  <tr>
+    <td>Caso 3</td>
+    <td>Todos os campos em branco</td>
+    <td>Entidade ainda não cadastrada</td>
+    <td>Entidade com dados obrigatórios vazios!</td>
+    <td>Entidade Cadastrada com Sucesso!</td>
+  </tr>
+</table>
+<strong>Evidências de Testes</strong><br>
+<strong>Caso 1</strong><br>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E1_Caso_1.png'>
+<strong>Caso 2</strong><br>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E1_Caso_2.png'>
+<strong>Caso 3</strong><br>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E1_Caso_3.png'>
+
+<H3>Teste de Casos de Uso: E8 - Buscar Entidade</H3>
+<strong>Tabela de Cenários</strong>
+<table>
+  <tr>
+    <th>Cenário 1</th>
+    <td>Fluxo Principal</td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Cenário 2</th>
+    <td>Fluxo Principal</td>
+    <td>Fluxo Alternativo 4.a</td>
+  </tr>
+</table>
+<br>
+<strong>Tabela de Decisão</strong>
+<table>
+  <tr>
+    <th>ID Cenário</th>
+    <th>Cenário 1</th>
+    <th>Cenário 2</th>
+  </tr>
+  <tr>
+    <th>Sistema encontrou a Entidade com os dados informados?</th>
+    <td>Sim</td>
+    <td>Não</td>
+  </tr>
+</table>
+<strong>Casos de Teste</strong>
+<table>
+  <tr>
+    <th>Caso de Teste</th>
+    <th>Condição de Entrada</th>
+    <th>Cenário</th>
+    <th>Resultado Esperado</th>
+    <th>Resultado Obtido</th>
+  </tr>
+  <tr>
+    <td>Caso 1</td>
+    <td>Entidade: Nome: Entidade A</td>
+    <td>Entidade A deve estar cadastrada</td>
+    <td>Entidade Encontrada com Sucesso!</td>
+    <td>Entidade Encontrada com Sucesso!</td>
+  </tr>
+  <tr>
+    <td>Caso 2</td>
+    <td>Entidade: Nome: Entidade B</td>
+    <td>Entidade B não deve estar cadastrada</td>
+    <td>Entidade Não Encontrada!</td>
+    <td>Entidade Não Encontrada!</td>
+  </tr>
+</table>
+<strong>Evidências de Testes</strong><br>
+<strong>Caso 1</strong><br>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E1_Caso_1.png'>
+<strong>Caso 2</strong><br>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E1_Caso_2.png'>
+<strong>Caso 3</strong><br>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E1_Caso_3.png'>
+
+<H3>Teste de Casos de Uso: E9 - Atualizar Entidade</H3>
+<strong>Tabela de Cenários</strong>
+<table>
+  <tr>
+    <th>Cenário 1</th>
+    <td>Fluxo Principal</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Cenário 2</th>
+    <td>Fluxo Principal</td>
+    <td>Fluxo Alternativo 3.a</td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Cenário 3</th>
+    <td>Fluxo Principal</td>
+    <td>Fluxo Alternativo 6.a</td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Cenário 4</th>
+    <td>Fluxo Principal</td>
+    <td>Fluxo Alternativo 6.b</td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Cenário 5</th>
+    <td>Fluxo Principal</td>
+    <td>Fluxo Alternativo 3.a</td>
+    <td>Fluxo Alternativo 6.a</td>
+  </tr>
+  <tr>
+    <th>Cenário 6</th>
+    <td>Fluxo Principal</td>
+    <td>Fluxo Alternativo 3.a</td>
+    <td>Fluxo Alternativo 6.b</td>
+  </tr>
+</table>
+<br>
+<strong>Tabela de Decisão</strong>
+<table>
+  <tr>
+    <th>ID Cenário</th>
+    <th>Cenário 1</th>
+    <th>Cenário 2</th>
+    <th>Cenário 3</th>
+    <th>Cenário 4</th>
+    <th>Cenário 5</th>
+    <th>Cenário 6</th>
+  </tr>
+  <tr>
+    <th>Secratário sabe o número de registro da Entidade?</th>
+    <td>Sim</td>
+    <td>Não</td>
+    <td>Sim</td>
+    <td>Sim</td>
+    <td>Não</td>
+    <td>Não</td>
+  </tr>
+  <tr>
+    <th>Dados válidos?</th>
+    <td>Sim</td>
+    <td>Sim</td>
+    <td>Sim</td>
+    <td></td>
+    <td>Não</td>
+    <td></td>
+  </tr>
+  <tr>
+    <th>Dados obrigatórios preenchidos?</th>
+    <td>Sim</td>
+    <td>Sim</td>
+    <td></td>
+    <td>Sim</td>
+    <td></td>
+    <td>Não</td>
+  </tr>
+</table>
+<strong>Casos de Teste</strong>
+<table>
+  <tr>
+    <th>Caso de Teste</th>
+    <th>Condição de Entrada</th>
+    <th>Cenário</th>
+    <th>Resultado Esperado</th>
+    <th>Resultado Obtido</th>
+  </tr>
+  <tr>
+    <td>Caso 1</td>
+    <td>Entidade: Nome: Entidade A, atualizar Telefone1 e Telefone2</td>
+    <td>Entidade A precisa estar cadastrado</td>
+    <td>Entidade Atualizada com Sucesso!</td>
+    <td>Entidade Atualizada com Sucesso!</td>
+  </tr>
+  <tr>
+    <td>Caso 2</td>
+    <td>Entidade desconhecida, atualizar Telefone1 e Telefone2</td>
+    <td>Entidade desconhecida precisa estar cadastrado</td>
+    <td>Entidade Atualizada com Sucesso!</td>
+    <td>Entidade Atualizada com Sucesso!</td>
+  </tr>
+  <tr>
+    <td>Caso 3</td>
+    <td>Entidade: Nome: Entidade A, atualizar CNPJ errôneamente</td>
+    <td>Entidade A precisa estar cadastrado</td>
+    <td>Entidade possui dados inválidos!</td>
+    <td>Entidade Atualizada com Sucesso!</td>
+  </tr>
+  <tr>
+    <td>Caso 4</td>
+    <td>Entidade: Nome: Entidade A, apagar todas as informações</td>
+    <td>Entidade A precisa estar cadastrado</td>
+    <td>Entidade com campos obrigatórios não preenchidos!</td>
+    <td>Entidade Atualizada com Sucesso!</td>
+  </tr>
+  <tr>
+    <td>Caso 5</td>
+    <td>Entidade desconhecida, atualizar CNPJ errôneamente</td>
+    <td>Entidade desconhecida precisa estar cadastrado</td>
+    <td>Entidade possui dados inválidos!</td>
+    <td>Entidade Atualizada com Sucesso!</td>
+  </tr>
+  <tr>
+    <td>Caso 6</td>
+    <td>Entidade desconhecida, apagar todas as informações</td>
+    <td>Entidade desconhecida precisa estar cadastrado</td>
+    <td>Entidade com campos obrigatórios não preenchidos!</td>
+    <td>Entidade Atualizada com Sucesso!</td>
+  </tr>
+</table>
+<strong>Evidências de Testes</strong><br>
+<strong>Caso 1</strong><br>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E1_Caso_1.png'>
+<strong>Caso 2</strong><br>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E1_Caso_2.png'>
+<strong>Caso 3</strong><br>
+<img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E1_Caso_3.png'>
+
 <H2>Especificação dos Testes Unitários</H2>
 <H3>1. Classe Aluno</H3>
 <strong>Testes de Fluxo de Dados</strong><br>
