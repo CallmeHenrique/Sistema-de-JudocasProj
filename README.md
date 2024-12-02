@@ -692,7 +692,7 @@ Pedro Henrique B. L. Barbieri - RA: 22.121.037-0<br>
 </table>
 <H2>Diagrama de Domínio</H2>
 <img src='./documentos/DiagramasJude/Diagrama de Dominio.png'>
-<H2>Especificação de Testes</H2>
+<H2>Especificação dos Testes de Casos de Uso</H2>
 <H3>Teste de Casos de Uso: E1 - Adicionar Aluno</H3>
 <strong>Tabela de Cenários</strong>
 <table>
@@ -990,3 +990,110 @@ Pedro Henrique B. L. Barbieri - RA: 22.121.037-0<br>
 <img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_a.png'>
 <img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_b.png'>
 <img src='https://github.com/CallmeHenrique/Sistema-de-JudocasProj/blob/Henrique/documentos/Evidencias%20Testes%20de%20Casos%20de%20Uso/E3_Caso_c.png'>
+
+<H2>Especificação dos Testes Unitários</H2>
+<H3>Classe Aluno</H3>
+<strong>Testes de Fluxo de Dados</strong><br>
+<table>
+  <tr>
+    <th colspan="3">1. Variável Filiado</th>
+  </tr>
+  <tr>
+    <th>par d-u</th>
+    <th>d</th>
+    <th>u</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>12</td>
+    <td>9</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>12</td>
+    <td>27</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>12</td>
+    <td>34</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>12</td>
+    <td>35</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>12</td>
+    <td>43</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>12</td>
+    <td>47</td>
+  </tr>
+</table>
+<br>
+<table>
+  <tr>
+    <th colspan="3">2. Variável Entidade</th>
+  </tr>
+  <tr>
+    <th>par d-u</th>
+    <th>d</th>
+    <th>u</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>18</td>
+    <td>15</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>48</td>
+    <td>15</td>
+  </tr>
+</table>
+<br>
+<table>
+  <tr>
+    <th colspan="3">3. Variável Professor</th>
+  </tr>
+  <tr>
+    <th>par d-u</th>
+    <th>d</th>
+    <th>u</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>24</td>
+    <td>21</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>49</td>
+    <td>21</td>
+  </tr>
+</table>
+<br>
+<table>
+  <tr>
+    <th colspan="3">4. Variável Hash</th>
+  </tr>
+  <tr>
+    <th>par d-u</th>
+    <th>d</th>
+    <th>u</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>42</td>
+    <td>43</td>
+  </tr>
+</table>
+<br>
+<strong>Teste de Grafo de Fluxo de Controle</strong><br>
+Método: equals(Object obj)
+
+<strong>Cobertura de Código</strong>
